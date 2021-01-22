@@ -1,2 +1,7 @@
 # Deformable-multi-attention-convolutional-neural-network
 基于可变形卷积和注意力机制的滚动轴承故障诊断
+
+轴承是旋转机械中的重要部件,轴承的故障可能导致严重的人员伤亡和经济损失,因此对轴承的故障诊断以及保障轴承的平稳运行是维护现代机械设备安全稳定运行必不可少的步骤。近年来，以深度学习为代表的新一代人工智能技术被广泛应用于滚动轴承故障诊断，并相较于传统信号处理技术取得了巨大的进步。然而，神经网络应用于故障诊断领域往往缺乏可解释性，提取故障特征的能力不够强。本文利用可变形卷积神经网络提高使用固定几何结构进行局部特征提取的能力，并引入注意力机制，充分考虑滚动轴承故障的特征来设计注意模块，以增强故障相关特征，忽略一些无关特征，提出了一种可变形多注意力卷积神经网络算法（Deformable multi-attention convolutional neural network，DMACNN）。基于DMACNN算法在XJTU-SY轴承数据集进行模型验证，结果表明该模型可以有效强化轴承故障脉冲响应特征的提取能力，其准确率明显高于目前主流模型。
+
+system information:
+Python3.7、在Pytorch1.2,Ubuntu18，Intel Xeon Silver CPU、GTX 2080Ti GPU
